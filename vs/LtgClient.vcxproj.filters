@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="$(SourcesDirectory)cdll.cpp">
       <Filter>src</Filter>
     </ClCompile>
@@ -20,10 +21,44 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="$(SourcesDirectory)win32.cpp">
+=======
+    <ClCompile Include="$(SourcesDirectory)cmdline.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourcesDirectory)init.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourcesDirectory)log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourcesDirectory)main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourcesDirectory)stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourcesDirectory)win32.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourcesDirectory)blocking_queue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourcesDirectory)test.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourcesDirectory)critsec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourcesDirectory)cthread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SourcesDirectory)udp_client.cpp">
+>>>>>>> e8c27ae (auto)
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="$(SourcesDirectory)cdll.h">
       <Filter>headers</Filter>
     </ClInclude>
@@ -46,6 +81,45 @@
       <Filter>headers</Filter>
     </ClInclude>
     <ClInclude Include="$(SourcesDirectory)win32.h">
+=======
+    <ClInclude Include="$(SourcesDirectory)cmdline.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)log.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)macros.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)nowarns.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)stdafx.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)targetver.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)win32.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)blocking_queue.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)test.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)critsec.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)cthread.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)lock_guard.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SourcesDirectory)udp_client.h">
+>>>>>>> e8c27ae (auto)
       <Filter>headers</Filter>
     </ClInclude>
   </ItemGroup>

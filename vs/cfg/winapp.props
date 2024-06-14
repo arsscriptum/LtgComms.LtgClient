@@ -181,6 +181,7 @@
     </ClCompile>
   </ItemDefinitionGroup>  
  
+<<<<<<< HEAD
 
   <Target Name="PrintBuildConfig" BeforeTargets="Build">
     <Message Text="================================================================================================" Importance="high" />
@@ -197,6 +198,8 @@
     <Message Text="FunctionLevelLinking: $(FunctionLevelLinking)." Importance="high" />
     <Message Text="================================================================================================" Importance="high" />
   </Target>
+=======
+>>>>>>> e8c27ae (auto)
 </Project>
 
 
