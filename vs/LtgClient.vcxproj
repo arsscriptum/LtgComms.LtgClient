@@ -24,11 +24,7 @@
     <QtExternalDir>$(QtRootPath)</QtExternalDir>
   </PropertyGroup>
   <PropertyGroup Label="Globals">
-<<<<<<< HEAD
     <ProjectGuid>{f223df90-4c67-4141-94b2-c25d9243ca6f}</ProjectGuid>
-=======
-    <ProjectGuid>{aae0b8e6-091b-48ba-b4cf-1378879be868}</ProjectGuid>
->>>>>>> e8c27ae (auto)
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>LtgClient</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
@@ -54,49 +50,30 @@
   <ImportGroup Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
-<<<<<<< HEAD
-  <PropertyGroup Label="UserMacros" />  <PropertyGroup Label="TargetNameConfig">
-    <TargetName>LtgClient$(ConfigurationPlaceHolder)</TargetName>
-    <GenerateManifest>false</GenerateManifest>
-  </PropertyGroup>
-
-=======
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Label="TargetNameConfig">
     <TargetName>LtgClient$(ConfigurationPlaceHolder)</TargetName>
     <GenerateManifest>false</GenerateManifest>
   </PropertyGroup>
->>>>>>> e8c27ae (auto)
   <ItemGroup>
     <ClCompile Include="$(SourcesDirectory)main.cpp" />
     <ClCompile Include="$(SourcesDirectory)stdafx.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="$(SourcesDirectory)cdll.cpp" />
-=======
->>>>>>> e8c27ae (auto)
     <ClCompile Include="$(SourcesDirectory)cmdline.cpp" />
     <ClCompile Include="$(SourcesDirectory)init.cpp" />
     <ClCompile Include="$(SourcesDirectory)log.cpp" />
     <ClCompile Include="$(SourcesDirectory)win32.cpp" />
-<<<<<<< HEAD
-=======
     <ClCompile Include="$(SourcesDirectory)blocking_queue.cpp" />
     <ClCompile Include="$(SourcesDirectory)udp_client.cpp" />
     <ClCompile Include="$(SourcesDirectory)test.cpp" />
     <ClCompile Include="$(SourcesDirectory)cthread.cpp" />
     <ClCompile Include="$(SourcesDirectory)critsec.cpp" />
->>>>>>> e8c27ae (auto)
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(SourcesDirectory)resources.rc" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClInclude Include="$(SourcesDirectory)cdll.h" />
-=======
->>>>>>> e8c27ae (auto)
     <ClInclude Include="$(SourcesDirectory)cmdline.h" />
     <ClInclude Include="$(SourcesDirectory)log.h" />
     <ClInclude Include="$(SourcesDirectory)macros.h" />
@@ -104,15 +81,12 @@
     <ClInclude Include="$(SourcesDirectory)stdafx.h" />
     <ClInclude Include="$(SourcesDirectory)targetver.h" />
     <ClInclude Include="$(SourcesDirectory)win32.h" />
-<<<<<<< HEAD
-=======
     <ClInclude Include="$(SourcesDirectory)blocking_queue.h" />
     <ClInclude Include="$(SourcesDirectory)udp_client.h" />
     <ClInclude Include="$(SourcesDirectory)test.h" />
     <ClInclude Include="$(SourcesDirectory)critsec.h" />
     <ClInclude Include="$(SourcesDirectory)lock_guard.h" />
     <ClInclude Include="$(SourcesDirectory)cthread.h" />
->>>>>>> e8c27ae (auto)
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
@@ -126,12 +100,6 @@
     </ItemGroup>
     <Delete Files="@(_CustomFilesToDelete)" />
   </Target>
-<<<<<<< HEAD
-  <Target Name="InitializeBuildInformation" BeforeTargets="InitializeBuildStatus">
-    <Message Text="==============================================================================" Importance="high" />
-    <Message Text="InitializeBuildInformation" Importance="high" />
-    <Message Text="==============================================================================" Importance="high" />
-=======
   <Target Name="PrintBuildConfig" BeforeTargets="InitializeBuildStatus">
     <Message Text="==========================================================" Importance="high" />
     <Message Text="                PrintBuildConfig                                     " Importance="high" />
@@ -143,7 +111,6 @@
     <Message Text="TargetName.......................: $(TargetName)" Importance="high" />
     <Message Text="MinimalRebuild...................: $(MinimalCompilationSetting)" Importance="high" />
     <Message Text="==========================================================" Importance="high" />
->>>>>>> e8c27ae (auto)
   </Target>
   <ItemGroup Condition="'$(UsingQt5)' == '1'">
     <QtRcc Include="$(AppResourceFile)">
