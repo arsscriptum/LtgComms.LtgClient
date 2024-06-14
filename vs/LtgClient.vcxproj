@@ -24,7 +24,7 @@
     <QtExternalDir>$(QtRootPath)</QtExternalDir>
   </PropertyGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{f223df90-4c67-4141-94b2-c25d9243ca6f}</ProjectGuid>
+    <ProjectGuid>{2B2BAE72-F0C9-4924-99A2-6D465007CA8F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>LtgClient</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
@@ -106,7 +106,7 @@
     <Message Text="CharacterSet.....................: $(CharacterSet)" Importance="high" />
     <Message Text="UseDebugLibraries................: $(UseDebugLibraries)" Importance="high" />
     <Message Text="SubSystem........................: $(SubSystem)" Importance="high" />
-    <Message Text="IntDir...........................: $(IntDir)" Importance="high" />  
+    <Message Text="IntDir...........................: $(IntDir)" Importance="high" />
     <Message Text="OutDir...........................: $(OutDir)" Importance="high" />
     <Message Text="TargetName.......................: $(TargetName)" Importance="high" />
     <Message Text="MinimalRebuild...................: $(MinimalCompilationSetting)" Importance="high" />
